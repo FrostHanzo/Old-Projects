@@ -1,0 +1,4 @@
+date and time	campaign name	sms text	reply text	recepients (
+pagination and filder by how many
+
+if one, display it's number, if more, create a link that displays all numbers)	aquisition

@@ -1,0 +1,150 @@
+/*
+style.css
+this is the main CSS file supporting the IN3008 - Electronic Commerce web application
+*/
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+	background-color:#E8F9FF;
+}
+
+#container {
+	width: 960px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#header {
+	border-radius:10px;
+	width: 960px;
+	height: 120px;
+	background-color: #FFF;
+	margin-top: -140px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	border-color: #FFF;
+	/*opacity:0.5;
+	filter:alpha(opacity=60);*/
+}
+.logo {
+	position:absolute;
+	margin-left:70px;
+	margin-top:10px;
+}
+#title {
+	width:500px;
+	float:left;
+	margin-top:30px;
+	margin-left:250px;
+	font-family:Verdana;
+	font-size:17px;
+	text-align:left;
+}
+#nav {
+	margin-top:160px;
+	margin-left:100px;
+	font-size:16px;
+	}
+#nav li {
+	display: block;
+	background-color:#FFF;
+	font-size:17px;
+	font-weight:bold;
+	float: left;
+	list-style: none;
+	padding: 5px 10px 5px 10px;
+}
+#nav li a:hover {
+	background-color:#FC6;
+}
+#nav a {
+	text-decoration: none;
+	color: #000;
+}
+
+#cart {
+	float:right;
+}
+#content {
+	height: auto;
+	margin-top: 50px;
+	border-color:#FFF;
+	border:solid;
+	border-width:3px;
+	border-radius:10px;
+	padding:30px;
+}
+.clear {
+	clear: both;
+}
+p {
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+	#basket {
+	width: 350px;
+	float: right;
+}
+#header h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+#basket h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+#content p
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#footer {
+	border-radius:10px;
+	width: 960px;
+	height: 80px;
+	background-color: #FFF;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:30px;
+	position: absolute;
+	border-color: #FFF;	
+}
+#footer a {
+	text-decoration: none;
+	color: #000;
+}
+
+.first{
+	margin-left: 180px;
+	}
+#footer li {
+	margin-top:10px;
+	display: block;
+	font-weight:bold;
+	float: left;
+	display:block;
+	list-style: none;
+	font-size: 20px;
+	background-color: #FFF;
+	padding: 5px; 
+	padding-top:0px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+#footer li a:hover {
+	background-color: #FC6;
+}
+
+table th, table td, table tr {
+	padding-left:10px;
+	padding-right:10px;
+	border: solid;
+	color: black;
+}

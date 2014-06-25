@@ -1,0 +1,5 @@
+# Set the time to my local timezone
+SetEnv TZ Europe/Sofia
+
+# Disable Indexes for all directories
+options -indexes
